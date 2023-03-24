@@ -322,6 +322,7 @@ body {
 
   .nav-hover:hover {
     color: #fd3a2d;
+    transform: scale(1.2);
   }
 
   #about {
