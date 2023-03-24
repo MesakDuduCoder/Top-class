@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+#welcome-text {
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #fd3a2d;
+}
+
+#main-title {
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: #fd3a2d;
+}
+
+#main-title-2 {
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: #fd3a2d;
+}
+
+#my-basket {
+  border-color: #fd3a2d;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #fd3a2d;
+}
+
+#main-logo {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #fd3a2d;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.main-nav-items {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.about-sub-titles {
+  flex: 0.3;
+  font-size: 1rem;
+  font-weight: 900;
+  color: #fd3a2d;
+}
+
+.about-items {
+  background-color: rgba(128, 128, 128, 0.5);
+  display: flex;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  gap: 10px;
+  align-items: center;
+}
+
+.about-sub-description {
+  flex: 0.6;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #fff;
+}
+
+.about-image {
+  flex: 0.1;
+  height: 50px;
+  width: 50px;
+}
+
+#main-para {
+  color: #696969;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+#aboutPage-para {
+  color: #696969;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+#aboutPage-para-2 {
+  color: #696969;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+#aboutPage-para-3 {
+  color: #696969;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+#aboutPage-sub-title {
+  color: #696969;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+#aboutPage-sub-title-2 {
+  color: #272a31;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+#aboutPage-sub-title-3 {
+  color: #272a31;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+#aboutPage-sub-link {
+  color: #696969;
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+#aboutPage-logo {
+  width: 300px;
+  height: 150px;
+  border: 1px solid #d3d3d3;
+  font-size: 2rem;
+  font-weight: 900;
+  color: #fd3a2d;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+#cc-logo {
+  object-fit: contain;
+  width: 140px;
+  height: 50px;
+}
+
+.best-selling-img {
+  width: 350px;
+  height: 200px;
+}
+
+#cc-logo-1 {
+  object-fit: contain;
+  width: 140px;
+  height: 50px;
+}
+
+.cc-text {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.cc-text-1 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #272a31;
+}
+
+#main-sub-title {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #525252;
+}
+
+#separator {
+  height: 1px;
+  border: 1px solid #d3d3d3;
+}
+
+#sponcer-title {
+  color: #525252;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.sponcer-images {
+  width: 100px;
+  height: 60px;
+  object-fit: contain;
+  margin: 10px;
+}
+
+.partners-img-box {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#about {
+  background-image: url('./images/about-bg.jpg');
+}
+
+#about-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+#about-btn {
+  width: 400px;
+  background-color: #fd3a2d;
+}
+
+.course-details h3 {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #fd3a2d;
+}
+
+#about-btn > h3 {
+  color: #fff;
+}
+
+#course-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5%;
+}
+
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.course-title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.course-card {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+
+.course-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.course-details h2 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #272a31;
+}
+
+.course-details p {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #323232;
+}
+
+.line {
+  width: 30px;
+  height: 1px;
+  margin-bottom: 5px;
+  border-bottom: 2px solid #d3d3d3;
+}
+
+.main-title-sub {
+  width: 100%;
+}
+
+@media screen and (max-width: 375px) {
+  #welcome-text {
+    font-size: 2rem;
+  }
+
+  #main-title {
+    font-size: 2.5rem;
+  }
+
+  #main-para {
+    font-size: 1rem;
+  }
+
+  #main-sub-title {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #my-basket {
+    width: fit-content;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 768px) {
+  .main-nav-items {
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  #course-container {
+    padding: 10% 15%;
+  }
+
+  .course-card {
+    box-sizing: border-box;
+    padding-right: 20px;
+    width: 50%;
+  }
+
+  .nav-hover {
+    color: black;
+  }
+
+  .nav-hover:hover {
+    color: #fd3a2d;
+  }
+
+  #about {
+    height: 600px;
+  }
+
+  #about-btn {
+    width: 400px;
+    background-color: transparent;
+    border: none;
+  }
+
+  #about-btn > h3 {
+    color: #fff;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  .about-items {
+    flex-direction: column;
+    max-width: 250px;
+    min-width: 130px;
+    margin-right: 2px;
+    padding: 20px;
+  }
+
+  .about-items:hover {
+    background-color: black;
+    transform: scale(1.2);
+  }
+
+  .about-sub-titles {
+    flex: 0.1;
+    height: auto;
+    margin-bottom: 0;
+  }
+
+  .about-sub-description {
+    flex: 0.8;
+  }
+
+  #cc-logo {
+    width: 200px;
+    height: 50px;
+  }
+
+  #cc-logo-1 {
+    width: 200px;
+    height: 50px;
+  }
+
+  .sponcer-images {
+    width: 180px;
+    margin: 5px;
+  }
+
+  #aboutPage-logo {
+    width: 550px;
+    height: 150px;
+  }
+
+  .main-title-sub {
+    width: 50%;
+  }
+}
