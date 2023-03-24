@@ -44,6 +44,32 @@ body {
   font-weight: 900;
 }
 
+.orange-line {
+  width: 80px;
+  height: 0;
+  border-bottom: 2px solid #fd3a2d;
+}
+
+.orange-line-2 {
+  width: 30px;
+  height: 0;
+  border-bottom: 2px solid #fd3a2d;
+  opacity: 0.7;
+}
+
+.nav-1-img {
+  width: 25px;
+  height: 25px;
+}
+
+.menu-button {
+  border: none;
+}
+
+#siteHome {
+  background: url('./images/home-bg.jpg');
+}
+
 .about-sub-titles {
   flex: 0.3;
   font-size: 1rem;
@@ -273,6 +299,7 @@ body {
 
 .main-title-sub {
   width: 100%;
+  border: 3px solid #fff;
 }
 
 @media screen and (max-width: 375px) {
