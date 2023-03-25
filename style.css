@@ -167,8 +167,71 @@ body {
 }
 
 .best-selling-img {
+  display: grid;
   width: 350px;
   height: 200px;
+  align-items: center;
+  text-align: center;
+}
+
+.best-selling-img-2 {
+  display: grid;
+  width: 350px;
+  height: 200px;
+  align-items: center;
+  text-align: center;
+}
+
+.layer,
+.layer-2,
+.featured-images,
+.featured-images-2,
+.featured-text,
+.featured-text-2 {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.layer {
+  background-color: #fd3a2d;
+  width: 350px;
+  height: 200px;
+  z-index: 1;
+  opacity: 0.5;
+}
+
+.featured-images {
+  width: 350px;
+  height: 200px;
+  z-index: 0;
+}
+
+.featured-text {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #fff;
+  z-index: 1;
+}
+
+.layer-2 {
+  background-color: #fd3a2d;
+  width: 350px;
+  height: 200px;
+  z-index: 1;
+  opacity: 0.5;
+}
+
+.featured-images-2 {
+  width: 350px;
+  height: 200px;
+  z-index: 0;
+}
+
+.featured-text-2 {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #fff;
+  z-index: 1;
 }
 
 #cc-logo-1 {

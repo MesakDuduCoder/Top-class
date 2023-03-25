@@ -24,7 +24,7 @@ courseTitle.innerHTML = `
 `;
 
 courseOne.innerHTML = `
-    <img class="course-image" src="./images/python.webp" alt="" width="120px" height="120px">
+    <img class="course-image" src="./images/python.webp" alt="python-programming-picture" width="120px" height="120px">
     <div class="course-details">
         <h2>Python for Beginners</h2>
         <h3>By Edin Diaz</h3>
@@ -34,7 +34,7 @@ courseOne.innerHTML = `
 `;
 
 courseTwo.innerHTML = `
-    <img class="course-image" src="./images/react.webp" alt="" width="120px" height="120px">
+    <img class="course-image" src="./images/react.webp" alt="react-js-picture" width="120px" height="120px">
     <div class="course-details">
         <h2>React for Beginners</h2>
         <h3>By John Kim</h3>
@@ -44,7 +44,7 @@ courseTwo.innerHTML = `
 `;
 
 courseThree.innerHTML = `
-    <img class="course-image" src="./images/angular.webp" alt="" width="120px" height="120px">
+    <img class="course-image" src="./images/angular.webp" alt="angular-js-picture" width="120px" height="120px">
     <div class="course-details">
         <h2>Angular for Beginners</h2>
         <h3>By Rock Lee</h3>
@@ -54,7 +54,7 @@ courseThree.innerHTML = `
 `;
 
 courseFour.innerHTML = `
-    <img class="course-image" src="./images/guitar.jpg" alt="" width="120px" height="120px">
+    <img class="course-image" src="./images/guitar.jpg" alt="guitar-picture" width="120px" height="120px">
     <div class="course-details">
         <h2>Learn To Play Guitar</h2>
         <h3>By Estes Tone</h3>
@@ -64,7 +64,7 @@ courseFour.innerHTML = `
 `;
 
 courseFive.innerHTML = `
-    <img class="course-image" src="./images/finance.jpg" alt="" width="120px" height="120px">
+    <img class="course-image" src="./images/finance.jpg" alt="finance-picture" width="120px" height="120px">
     <div class="course-details">
         <h2>Accounting for Beginners</h2>
         <h3>By Evelyn Lane</h3>
@@ -73,7 +73,7 @@ courseFive.innerHTML = `
     </div>
 `;
 courseSix.innerHTML = `
-    <img class="course-image" src="./images/game.jpg" alt="" width="120px" height="120px">
+    <img class="course-image" src="./images/game.jpg" alt="gaming-picture" width="120px" height="120px">
     <div class="course-details">
         <h2>Learn Gaming from Professional Gamer</h2>
         <h3>By Arteezy</h3>
