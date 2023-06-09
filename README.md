@@ -84,7 +84,7 @@ To run the project just open the index.html file.
 
 Check Out My Portfolio on GitHub Page:
 
-<a href="https://mesakduducoder.github.io/MesakDuduCoder.github.io-Module-One-Capstone-Mesak/">Click here</a>
+<a href="https://mesakduducoder.github.io/Module-One-Capstone-Mesak/">Click here</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
